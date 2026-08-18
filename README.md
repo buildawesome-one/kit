@@ -2,11 +2,9 @@
 
 <!--section:summary-->
 
-# <mark class="fa-brands fa-square-build-awesome-stroke opt"></mark> Build Awesome Kit
+# <i class="fa-brands fa-square-build-awesome-stroke mark-brand opt"></i> Build Awesome <b class="mark-brand">Kit</b>
 
-<big>Lightweight plugin with essential opt-out [features](//build.blades.ninja/plugin/features/), [filters](//build.blades.ninja/plugin/filters/), and [scripts](//build.blades.ninja/scripts/).</big>
-
-Use it standalone <span class="faded">OR</span> fully pre-configured with other popular plugins <span class="faded">OR</span> via one of our micro-starters.
+<big>All you need to quickly plug-and-play with <i class="fa-brands fa-eleventy"></i><span hidden>11ty</span> / Build&nbsp;Awesome.</big>
 
 <nav>
   <a href="//build.blades.ninja/plugin/" role="button">Plugin&nbsp;→</a>
