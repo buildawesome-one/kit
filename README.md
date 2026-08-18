@@ -9,9 +9,9 @@
 Use it standalone <span class="faded">OR</span> fully pre-configured with other popular plugins <span class="faded">OR</span> via one of our micro-starters.
 
 <nav>
-  <a href="//build.blades.ninja/plugin/" role="button">Get started <i class="fa-solid fa-plug fa-rotate-90 opt"></i></a>
+  <a href="//build.blades.ninja/plugin/" role="button">Plugin&nbsp;→</a>
   <b hidden>|</b>
-  <a href="//build.blades.ninja/config/" role="button" class="outline">Pre-configured <i class="fa-solid fa-gifts opt"></i></a>
+  <a href="//build.blades.ninja/config/" role="button" class="outline">All-in-one config</a>
   <b hidden>|</b>
   <a href="//build.blades.ninja/starters/" role="button" class="outline">Micro-starters <i>🌱</i></a>
 </nav>
