@@ -7,11 +7,11 @@
 <big>All you need to quickly plug-and-play with <i class="fa-brands fa-eleventy"></i><span hidden>11ty</span> / Build&nbsp;Awesome.</big>
 
 <nav>
-  <a href="//build.blades.ninja/plugin/" role="button">Plugin&nbsp;→</a>
+  <a href="//build.blades.ninja/plugin/" role="button">Utility <b>plugin</b></a>
   <b hidden>|</b>
-  <a href="//build.blades.ninja/config/" role="button" class="outline">All-in-one config</a>
+  <a href="//build.blades.ninja/config/" role="button" class="outline">Managed <b>config</b></a>
   <b hidden>|</b>
-  <a href="//build.blades.ninja/starters/" role="button" class="outline">Micro-starters <i>🌱</i></a>
+  <a href="//build.blades.ninja/starters/" role="button" class="outline"><span>Micro-<b>starters</b></span> <i>🌱</i></a>
 </nav>
 
 <!--section-->
