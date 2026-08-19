@@ -1,12 +1,12 @@
 {
   "name": "@anyblades/buildawesome-kit-config",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "type": "module",
   "main": "./buildawesome.config.js",
   "dependencies": {
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "@anyblades/blades": "^2.4.6",
+    "@anyblades/blades": "^3.0.0-alpha.3",
     "@anyblades/buildawesome-kit": "^1.3.0-alpha.2",
     "@uncenter/eleventy-plugin-toc": "^2.1.1",
     "markdown-it": "^14.1.0",
