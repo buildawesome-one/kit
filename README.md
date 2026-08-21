@@ -18,9 +18,7 @@
 
 ---
 
-## Core package
-
-### Plugin
+## Utility **plugin**
 
 <!--section:plugin-->
 
@@ -40,13 +38,12 @@ export default function ($config) {
 
 Live example: https://github.com/anyblades/buildawesome-micro-starters/blob/main/bare-plugin/
 
-#### Features
+### Features
 
 <!--section:plugin,features-->
 
-All https://build.blades.ninja/plugin/features/ except `mdAutoRawTags` are enabled by default.
-
-You can toggle them like this:
+All https://build.blades.ninja/plugin/features/ except [mdAutoRawTags](//build.blades.ninja/plugin/features/markdown-auto-raw/) are included by default,
+but you can toggle them like this:
 
 ```js {data-caption=buildawesome.config.js}
 $config.addPlugin(kitPlugin, {
@@ -57,13 +54,12 @@ $config.addPlugin(kitPlugin, {
 
 <!--section:plugin-->
 
-#### Filters
+### Filters
 
 <!--section:plugin,filters-->
 
-All https://build.blades.ninja/plugin/filters/ are enabled by default.
-
-You can toggle them like this:
+All https://build.blades.ninja/plugin/filters/ are included by default,
+but you can toggle them like this:
 
 ```js {data-caption=buildawesome.config.js}
 $config.addPlugin(kitPlugin, {
@@ -75,49 +71,7 @@ $config.addPlugin(kitPlugin, {
 
 ---
 
-### Scripts
-
-<!--section:scripts-->
-
-Ready-to-use npm scripts are included within the same core package:
-
-```sh
-npm install @anyblades/buildawesome-kit
-```
-
-To reuse in your project, link them under `scripts/` subfolder like this:
-
-```sh
-mkdir scripts
-cd scripts/
-ln -s ../node_modules/@anyblades/buildawesome-kit/packages/scripts/package.json
-cd ..
-```
-
-Finally, register `scripts` as a "virtual" npm workspace:
-
-```json {data-caption=package.json}
-  "workspaces": ["scripts"],
-  "scripts": {
-    "scripts": "npm -w scripts run",
-    "start": "npm run scripts -- start",
-    "stage": "npm run scripts -- stage",
-    "build": "npm run scripts -- build"
-  },
-```
-
-**Done!** 🥷
-: Build Awesome Kit's `npm run start` / `stage` / `build` are ready to use in your project, AND automatically updated via `@anyblades/buildawesome-kit` package.
-
-Live example: https://github.com/anyblades/buildawesome-micro-starters/tree/main/bare-scripts
-
-<!--section-->
-
----
-
-## Pre-configured
-
-### All-in-one package
+## Managed, all-in-one **config**uration package
 
 <!--section:config-->
 
@@ -189,7 +143,7 @@ Live example: https://github.com/anyblades/buildawesome-micro-starters/blob/main
 
 ---
 
-### Micro-starters
+## Micro-**starters**
 
 https://build.blades.ninja/starters/
 
@@ -247,6 +201,44 @@ https://build.blades.ninja/starters/
 </li>
 
 </ul>
+
+---
+
+## Scripts
+
+<!--section:scripts-->
+
+Ready-to-use npm scripts are included within the same core package:
+
+```sh
+npm install @anyblades/buildawesome-kit
+```
+
+To reuse in your project, link them under `scripts/` subfolder like this:
+
+```sh
+mkdir scripts
+cd scripts/
+ln -s ../node_modules/@anyblades/buildawesome-kit/packages/scripts/package.json
+cd ..
+```
+
+Finally, register `scripts` as a "virtual" npm workspace:
+
+```json {data-caption=package.json}
+  "workspaces": ["scripts"],
+  "scripts": {
+    "scripts": "npm -w scripts run",
+    "start": "npm run scripts -- start",
+    "stage": "npm run scripts -- stage",
+    "build": "npm run scripts -- build"
+  },
+```
+
+**Done!** 🥷
+: Build Awesome Kit's `npm run start` / `stage` / `build` are ready to use in your project, AND automatically updated via `@anyblades/buildawesome-kit` package.
+
+Live example: https://github.com/anyblades/buildawesome-micro-starters/tree/main/bare-scripts
 
 ---
 
