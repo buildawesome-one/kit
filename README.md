@@ -76,12 +76,12 @@ $config.addPlugin(kitPlugin, {
 <!--section:config-->
 
 ```sh
-npm install @awesome.me/buildawesome @anyblades/buildawesome-kit-config
+npm install @anyblades/buildawesome-kit-config @awesome.me/buildawesome
 ```
 
 Everything is installed automatically; the only manual step is to create a default layout.
 
-For example, using the built-in base https://blades.ninja/html/ templates:
+For example, using the built-in [Blades templates](https://blades.ninja/tpl/):
 
 ```sh
 mkdir _includes
@@ -93,18 +93,13 @@ echo "Hello, world! 🎈" > index.md
 ```
 
 **Done!** 🥷
-: Now you can see the <b class="mark-brand">Build Awesome Kit</b> in action by using its built-in config file:
+: Now you can see the <b class="mark-brand">Build Awesome Kit</b> in action by using its own built-in config file:
 
 ```sh
 npx @awesome.me/buildawesome --serve --config=node_modules/@anyblades/buildawesome-kit-config/buildawesome.config.js
 ```
 
-Live examples:
-
-- https://github.com/anyblades/buildawesome-micro-starters/tree/main/micro
-- https://github.com/anyblades/buildawesome-content-first/tree/main/.build
-
----
+---<!--{class}-->
 
 If you don't want to type `--config=...` every time, save it to your `package.json`:
 
@@ -119,12 +114,12 @@ Now you can simply `npm run start` / `build`! 🥷
 
 Live examples:
 
-- https://github.com/anyblades/buildawesome-micro-starters/blob/main/micro/package.json
-- https://github.com/anyblades/buildawesome-content-first/blob/main/.build/package.json
+- https://github.com/anyblades/buildawesome-micro-starters/tree/main/micro
+- https://github.com/anyblades/buildawesome-content-first/tree/main/.build
 
 ---
 
-You can also import and use it as a "base" config:
+You can also import and use it as a base config:
 
 ```js {data-caption=buildawesome.config.js}
 import kitConfig from "@anyblades/buildawesome-kit-config";
