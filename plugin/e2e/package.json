@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "bare-plugin",
+  "type": "module",
+  "scripts": {
+    "start": "clear; buildawesome --serve"
+  },
+  "dependencies": {
+    "@anyblades/buildawesome-kit": "^1.4.0",
+    "@awesome.me/buildawesome": "^4.0.0-0"
+  }
+}
