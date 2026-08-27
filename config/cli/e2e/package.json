@@ -1,20 +1,11 @@
 {
   "private": true,
+  "name": "cli.e2e",
   "type": "module",
-  "workspaces": [
-    "cli"
-  ],
   "scripts": {
     "cli": "clear; npm -w cli run",
     "start": "npm run cli -- start",
     "stage": "npm run cli -- stage",
     "build": "npm run cli -- build"
-  },
-  "dependencies": {
-    "@awesome.me/buildawesome": "^4.0.0-0",
-    "@buildawesome.one/cli": "^1.4.0"
-  },
-  "devDependencies": {
-    "serve": "^14.2.5"
   }
 }

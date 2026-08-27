@@ -1,11 +1,11 @@
 {
   "private": true,
+  "name": "plugin.e2e",
   "type": "module",
   "scripts": {
     "start": "clear; buildawesome --serve"
   },
   "dependencies": {
-    "@awesome.me/buildawesome": "^4.0.0-0",
     "@buildawesome.one/plugin": "^1.4.0"
   }
 }

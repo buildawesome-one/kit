@@ -1,6 +1,6 @@
 {
-  "name": "@buildawesome.one/cli",
-  "version": "1.4.0",
+  "private": true,
+  "name": "cli",
   "scripts": {
     "--- START": "with-tw: 1) `&` for parallel run 2) `tw` is last to stay alive 3) trap/wait for graceful exit",
     "start": "npm run ba -- --serve --incremental",
@@ -10,9 +10,9 @@
     "--- BUILD": "`;` to make `tw` optional",
     "build": "npm run tw; npm run ba",
     "--- INNER": "commands written so that extra arguments can be passed",
-    "ba": "cd ../ && NODE_OPTIONS=--preserve-symlinks buildawesome ${BA_OPTIONS:-$ELTY_OPTIONS}",
-    "tw": "[ -z \"$TW_OPTIONS\" ] && exit 0; cd ../ && tailwindcss ${TW_OPTIONS}",
+    "ba": "NODE_OPTIONS=--preserve-symlinks buildawesome ${BA_OPTIONS:-$ELTY_OPTIONS}",
+    "tw": "[ -z \"$TW_OPTIONS\" ] && exit 0; tailwindcss ${TW_OPTIONS}",
     "--- DEV": "---",
-    "dev:kit": "cd ../ && npm link @anyblades/buildawesome-kit-config && cd node_modules/@anyblades/ && ln -sf buildawesome-kit-config/node_modules/@anyblades/* ./ && cd buildawesome-kit-config/ && npm link @anyblades/blades"
+    "dev:kit": "npm link @anyblades/buildawesome-kit-config && cd node_modules/@anyblades/ && ln -sf buildawesome-kit-config/node_modules/@anyblades/* ./ && cd buildawesome-kit-config/ && npm link @anyblades/blades"
   }
 }

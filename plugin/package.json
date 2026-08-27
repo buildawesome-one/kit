@@ -28,11 +28,11 @@
   },
   "--- METADATA": "---",
   "author": "Anton Staroverov",
-  "description": "Essential 11ty filters, pre/post-processors, and other toggleable features as a simple, configurable plugin",
   "homepage": "https://buildawesome.one/plugin/",
   "keywords": [
     "11ty",
     "buildawesome",
+    "buildawesome-one",
     "eleventy",
     "filters",
     "plugin"

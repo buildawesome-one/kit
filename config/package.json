@@ -7,7 +7,7 @@
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
     "@anyblades/blades": "^3.0.0-alpha.3",
-    "@buildawesome.one/plugin": "^1.3.0-alpha.2",
+    "@buildawesome.one/plugin": "^1.4.0",
     "@uncenter/eleventy-plugin-toc": "^2.1.1",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
@@ -26,24 +26,21 @@
       "optional": true
     }
   },
-  "--- DEV ONLY": "---",
-  "workspaces": [
-    "core"
-  ],
   "--- METADATA": "---",
   "author": "Anton Staroverov",
-  "description": "A ready-to-go `buildawesome.config.js` for popular 11ty plugins, bundled with npm scripts in one reusable, zero-maintenance package.",
   "homepage": "https://buildawesome.one/config/",
   "keywords": [
     "11ty",
     "buildawesome",
+    "buildawesome-one",
     "eleventy",
     "config"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anyblades/buildawesome-kit.git"
+    "url": "git+https://github.com/buildawesome-one/kit.git",
+    "directory": "config/"
   },
   "---": "---"
 }

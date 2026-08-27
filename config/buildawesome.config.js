@@ -4,9 +4,9 @@
 import { RenderPlugin } from "@awesome.me/buildawesome";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import kitPlugin from "@anyblades/buildawesome-kit";
+import onePlugin from "@buildawesome.one/plugin";
+import { siteData } from "@buildawesome.one/plugin/features/siteData.js";
 import pluginTOC from "@uncenter/eleventy-plugin-toc";
-import { siteData } from "@anyblades/buildawesome-kit/features/siteData.js";
 /* Libraries (A-Z) */
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
