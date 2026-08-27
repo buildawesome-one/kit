@@ -1,10 +1,9 @@
 {
-  "name": "@anyblades/buildawesome-kit",
+  "name": "@buildawesome.one/plugin",
   "version": "1.4.0",
   "type": "module",
-  "main": "./plugin.js",
   "exports": {
-    ".": "./plugin.js",
+    ".": "./index.js",
     "./features/*": "./features/*"
   },
   "peerDependencies": {
@@ -30,7 +29,7 @@
   "=== METADATA": "===",
   "author": "Anton Staroverov",
   "description": "Essential 11ty filters, pre/post-processors, and other toggleable features as a simple, configurable plugin",
-  "homepage": "https://build.blades.ninja/plugin/",
+  "homepage": "https://buildawesome.one/plugin/",
   "keywords": [
     "11ty",
     "buildawesome",
@@ -41,7 +40,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anyblades/buildawesome-kit.git",
+    "url": "git+https://github.com/buildawesome-one/kit.git",
     "directory": "plugin/"
   },
   "===": "==="

@@ -1,5 +1,5 @@
-import kitPlugin from "@anyblades/buildawesome-kit";
+import onePlugin from "@buildawesome.one/plugin";
 
 export default function ($config) {
-  $config.addPlugin(kitPlugin);
+  $config.addPlugin(onePlugin);
 }
