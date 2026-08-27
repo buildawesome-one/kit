@@ -26,11 +26,11 @@
       "optional": true
     }
   },
-  "=== DEV ONLY": "===",
+  "--- DEV ONLY": "---",
   "workspaces": [
     "core"
   ],
-  "=== METADATA": "===",
+  "--- METADATA": "---",
   "author": "Anton Staroverov",
   "description": "A ready-to-go `buildawesome.config.js` for popular 11ty plugins, bundled with npm scripts in one reusable, zero-maintenance package.",
   "homepage": "https://buildawesome.one/config/",
@@ -45,5 +45,5 @@
     "type": "git",
     "url": "git+https://github.com/anyblades/buildawesome-kit.git"
   },
-  "===": "==="
+  "---": "---"
 }

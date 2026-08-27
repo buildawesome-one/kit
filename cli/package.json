@@ -2,17 +2,17 @@
   "private": true,
   "name": "scripts",
   "scripts": {
-    "=== START": "with-tw: 1) `&` for parallel run 2) `tw` is last to stay alive 3) trap/wait for graceful exit",
+    "--- START": "with-tw: 1) `&` for parallel run 2) `tw` is last to stay alive 3) trap/wait for graceful exit",
     "start": "npm run ba -- --serve --incremental",
     "start:with-tw": "trap 'kill 0' INT; npm start & npm run tw -- --watch & wait",
-    "=== STAGE": "1) `rm -r` w/o trailing slash to avoid symlink catastrophe! 2) `;` to bypass no dir errors",
+    "--- STAGE": "1) `rm -r` w/o trailing slash to avoid symlink catastrophe! 2) `;` to bypass no dir errors",
     "stage": "rm -r ../_site; npm run build && serve ../_site/",
-    "=== BUILD": "`;` to make `tw` optional",
+    "--- BUILD": "`;` to make `tw` optional",
     "build": "npm run tw; npm run ba",
-    "=== INNER": "commands written so that extra arguments can be passed",
+    "--- INNER": "commands written so that extra arguments can be passed",
     "ba": "cd ../ && NODE_OPTIONS=--preserve-symlinks buildawesome ${BA_OPTIONS:-$ELTY_OPTIONS}",
     "tw": "[ -z \"$TW_OPTIONS\" ] && exit 0; cd ../ && tailwindcss ${TW_OPTIONS}",
-    "=== DEV": "===",
+    "--- DEV": "---",
     "dev:kit": "cd ../ && npm link @anyblades/buildawesome-kit-config && cd node_modules/@anyblades/ && ln -sf buildawesome-kit-config/node_modules/@anyblades/* ./ && cd buildawesome-kit-config/ && npm link @anyblades/blades"
   }
 }
