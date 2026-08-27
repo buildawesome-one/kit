@@ -1,19 +1,18 @@
 {
   "private": true,
-  "name": "bare-scripts",
   "type": "module",
   "workspaces": [
-    "scripts"
+    "cli"
   ],
   "scripts": {
-    "scripts": "clear; npm -w scripts run",
-    "start": "npm run scripts -- start",
-    "stage": "npm run scripts -- stage",
-    "build": "npm run scripts -- build"
+    "cli": "clear; npm -w cli run",
+    "start": "npm run cli -- start",
+    "stage": "npm run cli -- stage",
+    "build": "npm run cli -- build"
   },
   "dependencies": {
-    "@anyblades/buildawesome-kit": "^1.4.0",
-    "@awesome.me/buildawesome": "^4.0.0-0"
+    "@awesome.me/buildawesome": "^4.0.0-0",
+    "@buildawesome.one/cli": "^1.4.0"
   },
   "devDependencies": {
     "serve": "^14.2.5"

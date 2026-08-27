@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "scripts",
+  "name": "@buildawesome.one/cli",
+  "version": "1.4.0",
   "scripts": {
     "--- START": "with-tw: 1) `&` for parallel run 2) `tw` is last to stay alive 3) trap/wait for graceful exit",
     "start": "npm run ba -- --serve --incremental",
