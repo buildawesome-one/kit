@@ -44,7 +44,7 @@ export default async function ($config, pluginOptions = {}) {
   });
   $config.addPlugin(RenderPlugin);
   $config.addPlugin(eleventyNavigationPlugin);
-  $config.addPlugin(kitPlugin, pluginOptions.plugins?.["@anyblades/buildawesome-kit"] ?? { mdAutoRawTags: true });
+  $config.addPlugin(onePlugin, pluginOptions.plugins?.["@buildawesome.one/plugin"] ?? { mdAutoRawTags: true });
   $config.addPlugin(pluginTOC, {
     ignoredElements: [".header-anchor", "sub"],
     ul: true,
@@ -126,7 +126,9 @@ export default async function ($config, pluginOptions = {}) {
     dynamicPartials: false, // allows unquoted Jekyll-style includes
     root: [
       $config.directories.includes,
-      fs.realpathSync(path.resolve("./node_modules/@anyblades/blades/_includes")), // for symlinks to work after https://github.com/harttle/liquidjs/pull/870
+      ...(fs.existsSync("./node_modules/@anyblades/blades/_includes")
+        ? [fs.realpathSync(path.resolve("./node_modules/@anyblades/blades/_includes"))]
+        : []), // for symlinks to work after https://github.com/harttle/liquidjs/pull/870 (optional: skipped if node_modules absent)
     ],
   });
   // Dev tools

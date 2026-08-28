@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "config.e2e",
+  "type": "module",
+  "scripts": {
+    "cli": "clear; BA_OPTIONS='--config=../buildawesome.config.js --input=../e2e/' npm -w cli run",
+    "start": "npm run cli -- start",
+    "stage": "npm run cli -- stage",
+    "build": "npm run cli -- build"
+  },
+  "dependencies": {
+    "@buildawesome.one/config": "^1.4.0"
+  }
+}
