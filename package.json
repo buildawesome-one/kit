@@ -18,12 +18,6 @@
   "--- METADATA": "---",
   "author": "Anton Staroverov",
   "homepage": "https://buildawesome.one/",
-  "keywords": [
-    "11ty",
-    "buildawesome",
-    "buildawesome-one",
-    "eleventy"
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",

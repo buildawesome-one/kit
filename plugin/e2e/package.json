@@ -6,6 +6,6 @@
     "start": "clear; buildawesome --serve"
   },
   "dependencies": {
-    "@buildawesome.one/plugin": "^1.4.0"
+    "@buildawesome.one/plugin": "^1.4.0-0"
   }
 }
