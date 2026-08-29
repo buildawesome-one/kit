@@ -1,6 +1,8 @@
 {
   "name": "@buildawesome.one/cli",
   "version": "1.4.0-alpha",
+  "bin": "bin/dev.js",
+  "type": "module",
   "scripts": {
     "--- START": "with-tw: 1) `&` for parallel run 2) `tw` is last to stay alive 3) trap/wait for graceful exit",
     "start": "npm run ba -- --serve --incremental",
@@ -11,9 +13,7 @@
     "build": "npm run tw; npm run ba",
     "--- INNER": "commands written so that extra arguments can be passed",
     "ba": "cd ../ && NODE_OPTIONS=--preserve-symlinks buildawesome ${BA_OPTIONS:-$ELTY_OPTIONS}",
-    "tw": "[ -z \"$TW_OPTIONS\" ] && exit 0; cd ../ && tailwindcss ${TW_OPTIONS}",
-    "--- DEV": "---",
-    "dev": "cd ../ && npm link @buildawesome.one/cli @buildawesome.one/config @buildawesome.one/plugin @anyblades/blades"
+    "tw": "[ -z \"$TW_OPTIONS\" ] && exit 0; cd ../ && tailwindcss ${TW_OPTIONS}"
   },
   "--- METADATA": "---",
   "author": "Anton Staroverov",
