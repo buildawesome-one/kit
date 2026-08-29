@@ -2,9 +2,9 @@
   "private": true,
   "name": "@buildawesome.one/monorepo",
   "workspaces": [
+    "cli/",
+    "cli/e2e/",
     "config/",
-    "config/cli/",
-    "config/cli/e2e/",
     "config/e2e/",
     "plugin/",
     "plugin/e2e/"

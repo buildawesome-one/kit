@@ -3,7 +3,7 @@
   "name": "cli.e2e",
   "type": "module",
   "scripts": {
-    "cli": "clear; npm -w cli run",
+    "cli": "clear; BA_OPTIONS=--input=cli/e2e/ npm -C ../ run",
     "start": "npm run cli -- start",
     "stage": "npm run cli -- stage",
     "build": "npm run cli -- build"

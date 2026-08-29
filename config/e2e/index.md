@@ -1,1 +1,1 @@
-../cli/e2e/index.md
+../../plugin/e2e/index.md
