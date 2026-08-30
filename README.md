@@ -1,17 +1,17 @@
-<img src="https://img.shields.io/npm/v/@anyblades/buildawesome-kit?label=plugin&color=white"> <img src="https://img.shields.io/npm/v/@anyblades/buildawesome-kit-config?label=config&color=white">
+<img src="https://img.shields.io/npm/v/@buildawesome.one/plugin?label=plugin&color=white"> <img src="https://img.shields.io/npm/v/@buildawesome.one/config?label=config&color=white">
 
 <!--section:summary-->
 
-# <i class="fa-brands fa-square-build-awesome-stroke mark-brand opt"></i> Build Awesome <b class="mark-brand">Kit</b>
+# Build Awesome <b class="mark-brand">One</b>
 
-<big>All you need to quickly plug-and-play with <i class="fa-brands fa-eleventy"></i><span hidden>11ty</span> / Build&nbsp;Awesome.</big>
+<big>Ultimate all-in-<b class="mark-brand">One</b> kit for <i class="fa-brands fa-eleventy"></i><span hidden>11ty</span> / Build&nbsp;Awesome.</big>
 
 <nav>
-  <a href="//build.blades.ninja/plugin/" role="button">Utility <b>plugin</b></a>
+  <a href="//build.blades.ninja/plugin/" role="button">One <b>Plugin</b> ›</a>
   <b hidden>|</b>
-  <a href="//build.blades.ninja/config/" role="button" class="outline">Managed <b>config</b></a>
+  <a href="//build.blades.ninja/config/" role="button" class="outline">One <b>Config</b> ›</a>
   <b hidden>|</b>
-  <a href="//build.blades.ninja/starters/" role="button" class="outline"><span>Micro-<b>starters</b></span> <i>🌱</i></a>
+  <a href="//starter.buildawesome.one/" role="button" class="outline">One <b>Starter</b> ↗</a>
 </nav>
 
 <!--section-->
