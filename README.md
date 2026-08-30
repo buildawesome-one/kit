@@ -2,7 +2,7 @@
 
 <!--section:summary-->
 
-# Build Awesome <em class="mark-brand">One</em>
+<h1>Build Awesome <em class="mark-brand">One</em></h1>
 
 <big>All-in-<em class="mark-brand">One</em> kit for 11ty / Build&nbsp;Awesome.</big>
 
