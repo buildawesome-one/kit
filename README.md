@@ -2,9 +2,9 @@
 
 <!--section:summary-->
 
-# Build Awesome <b class="mark-brand">One</b>
+# Build Awesome <em class="mark-brand">One</em>
 
-<big>Ultimate all-in-<b class="mark-brand">One</b> kit for 11ty / Build&nbsp;Awesome.</big>
+<big>Ultimate all-in-<em class="mark-brand">One</em> kit for 11ty / Build&nbsp;Awesome.</big>
 
 <nav>
   <a href="//build.blades.ninja/plugin/" role="button">One <b>Plugin</b> ›</a>
