@@ -4,7 +4,7 @@
 
 # Build Awesome <b class="mark-brand">One</b>
 
-<big>Ultimate all-in-<b class="mark-brand">One</b> kit for <i class="fa-brands fa-eleventy"></i><span hidden>11ty</span> / Build&nbsp;Awesome.</big>
+<big>Ultimate all-in-<b class="mark-brand">One</b> kit for 11ty / Build&nbsp;Awesome.</big>
 
 <nav>
   <a href="//build.blades.ninja/plugin/" role="button">One <b>Plugin</b> ›</a>
