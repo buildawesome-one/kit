@@ -1,18 +1,16 @@
-<img src="https://img.shields.io/npm/v/@buildawesome.one/plugin?label=plugin&color=white"> <img src="https://img.shields.io/npm/v/@buildawesome.one/config?label=config&color=white">
-
 <!--section:summary-->
 
-<h1>Build Awesome <em class="mark-brand">One</em></h1>
-
-<big>All-in-<em class="mark-brand">One</em> kit for 11ty / Build&nbsp;Awesome.</big>
-
-<nav>
-  <a href="//build.blades.ninja/plugin/" role="button">One <b>Plugin</b> ›</a>
-  <b hidden>|</b>
-  <a href="//build.blades.ninja/config/" role="button" class="outline">One <b>Config</b> ›</a>
-  <b hidden>|</b>
-  <a href="//starter.buildawesome.one/" role="button" class="outline">One <b>Starter</b> ↗</a>
-</nav>
+<section align="center">
+  <h1>Build Awesome <em class="mark-brand">One</em></h1>
+  <p><big>All-in-<em class="mark-brand">One</em> kit for 11ty / Build&nbsp;Awesome.</big></p>
+  <nav>
+    <a href="//build.blades.ninja/plugin/" role="button">One <b>Plugin</b> ›</a>
+    <b hidden>|</b>
+    <a href="//build.blades.ninja/config/" role="button" class="outline">One <b>Config</b> ›</a>
+    <b hidden>|</b>
+    <a href="//starter.buildawesome.one/" role="button" class="outline">One <b>Starter</b> ↗</a>
+  </nav>
+</section>
 
 <!--section-->
 
