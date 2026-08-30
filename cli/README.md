@@ -1,35 +1,32 @@
-# One CLI `DRAFTING`
+# One CLI
 
 <!--section:content-->
 
-Ready-to-use npm scripts are included within the same core package:
-
 ```sh
-npm install @buildawesome.one/plugin
+npm install @buildawesome.one/cli
 ```
 
-To reuse in your project, link them under `scripts/` subfolder like this:
+Reuse it in your project by linking under `.cli/` subfolder like this:
 
 ```sh
-mkdir scripts
-cd scripts/
-ln -s ../node_modules/@buildawesome.one/plugin/packages/scripts/package.json
+mkdir .cli
+cd .cli/
+ln -s ../node_modules/@buildawesome.one/cli/package.json
 cd ..
 ```
 
-Finally, register `scripts` as a "virtual" npm workspace:
+Finally, register it in your `package.json` like this:
 
-```json {data-caption=package.json}
-  "workspaces": ["scripts"],
+```json
   "scripts": {
-    "scripts": "npm -w scripts run",
-    "start": "npm run scripts -- start",
-    "stage": "npm run scripts -- stage",
-    "build": "npm run scripts -- build"
+    "cli": "npm -C .cli/ run",
+    "start": "npm run cli -- start",
+    "stage": "npm run cli -- stage",
+    "build": "npm run cli -- build"
   },
 ```
 
 **Done!** 🥷
-: Build Awesome Kit's `npm run start` / `stage` / `build` are ready to use in your project, AND automatically updated via `@buildawesome.one/plugin` package.
+: `@buildawesome.one/cli`'s `npm run start` / `stage` / `build` ready to use in your project, yet easy to maintain!
 
-Live example: https://github.com/anyblades/buildawesome-micro-starters/tree/main/bare-scripts
+Live example: https://github.com/buildawesome-one/kit/tree/main/cli/e2e

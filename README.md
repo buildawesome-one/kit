@@ -102,7 +102,7 @@ npx @awesome.me/buildawesome --serve --config=node_modules/@buildawesome.one/con
 
 ---<!--{class}-->
 
-If you don't want to type `--config=...` every time, save it to your `package.json`:
+If you don't want to type `--config=...` every time, save it in your `package.json`:
 
 ```json
 "scripts": {
