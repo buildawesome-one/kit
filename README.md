@@ -145,26 +145,15 @@ Live example: https://github.com/buildawesome-one/examples/tree/main/og-images
 <ul class="columns">
 
 <li>
-<strong><a href="//buildawesome.one/plugin/">Core package</a></strong>
-<ul><li><a href="//buildawesome.one/plugin/">Plugin</a></li>
-<li><a href="//buildawesome.one/scripts/">Scripts</a></li></ul>
-</li>
-
-<li>
-<strong><a href="//buildawesome.one/plugin/features/">Features</a></strong>
-<ul><li><a href="//buildawesome.one/plugin/features/">Features overview</a></li>
-<li><a href="//buildawesome.one/plugin/features/link-favicons/">Automatic link favicons</a></li>
+<strong><a href="//buildawesome.one/plugin/">Plugin</a></strong>
+<ul><li><a href="//buildawesome.one/plugin/">Install</a></li>
+<li><a href="//buildawesome.one/plugin/features/">Features</a><ul><li><a href="//buildawesome.one/plugin/features/link-favicons/">Automatic link favicons</a></li>
 <li><a href="//buildawesome.one/plugin/features/markdown-auto-raw/">Markdown auto-raw tags</a></li>
 <li><a href="//buildawesome.one/plugin/features/markdown-hidden-attrs/">Markdown hidden attrs</a></li>
 <li><a href="//buildawesome.one/plugin/features/markdown-newlines/">Markdown newlines</a></li>
 <li><a href="//buildawesome.one/plugin/features/site-globals/">Site globals</a></li>
-<li><a href="//buildawesome.one/plugin/features/virtual-pages/">Virtual pages <mark>NEW</mark></a></li></ul>
-</li>
-
-<li>
-<strong><a href="//buildawesome.one/plugin/filters/">Filters</a></strong>
-<ul><li><a href="//buildawesome.one/plugin/filters/">Filters overview</a></li>
-<li><a href="//buildawesome.one/plugin/filters/attr_concat/">attr_concat</a></li>
+<li><a href="//buildawesome.one/plugin/features/virtual-pages/">Virtual pages <mark>NEW</mark></a></li></ul></li>
+<li><a href="//buildawesome.one/plugin/filters/">Filters</a><ul><li><a href="//buildawesome.one/plugin/filters/attr_concat/">attr_concat</a></li>
 <li><a href="//buildawesome.one/plugin/filters/attr_includes/">attr_includes</a></li>
 <li><a href="//buildawesome.one/plugin/filters/attr_set/">attr_set</a></li>
 <li><a href="//buildawesome.one/plugin/filters/date/">date</a></li>
@@ -176,19 +165,26 @@ Live example: https://github.com/buildawesome-one/examples/tree/main/og-images
 <li><a href="//buildawesome.one/plugin/filters/section/">section</a></li>
 <li><a href="//buildawesome.one/plugin/filters/split/">split <mark>NEW</mark></a></li>
 <li><a href="//buildawesome.one/plugin/filters/strip_tag/">strip_tag</a></li>
-<li><a href="//buildawesome.one/plugin/filters/unindent/">unindent</a></li></ul>
+<li><a href="//buildawesome.one/plugin/filters/unindent/">unindent</a></li></ul></li></ul>
 </li>
 
 <li>
-<strong><a href="//buildawesome.one/config/">Pre-configured</a></strong>
-<ul><li><a href="//buildawesome.one/config/">All-in-one package</a></li>
+<strong><a href="//buildawesome.one/config/">Config</a></strong>
+
+</li>
+
+<li>
+<strong><a href="//starter.buildawesome.one/">Starter ↗</a></strong>
+
+</li>
+
+<li>
+<strong><a href="//buildawesome.one/undefined">More</a></strong>
+<ul><li><a href="//buildawesome.one/awesome/">Awesome</a></li>
+<li><a href="//buildawesome.one/cli/">CLI</a></li>
 <li><a href="//buildawesome.one/starters/">Starters</a></li>
-<li><a href="//buildawesome.one/templates/">HTML templates</a></li></ul>
-</li>
-
-<li>
-<strong><a href="//buildawesome.one/awesome/">Awesome</a></strong>
-
+<li><a href="//buildawesome.one/tpl/">Templating</a></li>
+<li><a href="//github.com/buildawesome-one/examples">Examples ↗</a></li></ul>
 </li>
 
 </ul>
