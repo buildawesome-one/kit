@@ -193,12 +193,13 @@ Live example: https://github.com/buildawesome-one/examples/tree/main/og-images
 
 <!--section:featured-->
 
-## <sup style>Featured by</sup><!--A-Z sites, then @users-->
+## <sup style>Featured by</sup><!-- A-Z sites, then @users -->
 
 - [11ty.dev](https://www.11ty.dev/authors/buildawesome-one/)
 - [11tybundle.dev](https://11tybundle.dev/starters/#:~:text=buildawesome%2Done)
+- [blades.ninja](https://blades.ninja/#:~:text=Build%20Awesome%20One)
 - [sveltiacms.app](https://sveltiacms.app/en/docs/frameworks/eleventy#:~:text=buildawesome%2Done)
 - [@hamatti](https://hamatti.org/posts/markdown-content-split-to-sections-in-eleventy-and-nunjucks/#:~:text=section%20filter)
 
 <!--{.markerless .columns}-->
-<!--[hostfurl.com, @johnheenan]-->
+<!-- ALSO: hostfurl.com, @johnheenan -->
