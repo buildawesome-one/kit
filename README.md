@@ -1,22 +1,25 @@
 <!--section:summary-->
 
 <section align="center">
-  <h1><span hidden>11ty /</span> Build Awesome <em class="mark-brand">One</em></h1>
-  <p><big>All-in-<em class="mark-brand">One</em> kit for 11ty / Build&nbsp;Awesome.</big></p>
-  <nav>
-    <a href="//buildawesome.one/plugin/" role="button">One <b>Plugin</b> ›</a>
-    <b hidden>|</b>
-    <a href="//buildawesome.one/config/" role="button" class="outline">One <b>Config</b> ›</a>
-    <b hidden>|</b>
-    <a href="//starter.buildawesome.one/" role="button" class="outline">One <b>Starter</b> ↗</a>
-  </nav>
+
+# <span hidden>11ty /</span> Build Awesome <mark>_One_</mark>
+
+<big>All-in-_One_ kit for 11ty / Build&nbsp;Awesome.</big>
+
+<nav>
+  <a href="//buildawesome.one/plugin/" role="button"><em>One</em> Plugin ›</a>
+  <b hidden>|</b>
+  <a href="//buildawesome.one/config/" role="button" class="outline"><em>One</em> Config ›</a>
+  <b hidden>|</b>
+  <a href="//starter.buildawesome.one/" role="button" class="outline"><em>One</em> Starter ↗</a>
+</nav>
 </section>
 
 <!--section-->
 
 ---
 
-## One utility **Plugin**
+## _One_ utility Plugin
 
 <!--section:plugin-->
 
@@ -72,7 +75,7 @@ $config.addPlugin(onePlugin, {
 
 ---
 
-## All-in-One **Config** package
+## All-in-_One_ Config
 
 <!--section:config-->
 
@@ -137,6 +140,18 @@ export default async function ($config) {
 Live example: https://github.com/buildawesome-one/examples/tree/main/og-images
 
 <!--section-->
+
+---
+
+## _One_ Starter
+
+https://starter.buildawesome.one/
+
+---
+
+## All-in-_One_ Examples
+
+https://github.com/buildawesome-one/examples
 
 ---
 
