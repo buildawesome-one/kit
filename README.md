@@ -197,8 +197,8 @@ Live example: https://github.com/buildawesome-one/examples/tree/main/og-images
 
 <!--[11ty.dev]-->
 
-- [11tybundle.dev](https://11tybundle.dev/starters/#:~:text=build%20awesome%20kit)
-- [sveltiacms.app](https://sveltiacms.app/en/docs/frameworks/eleventy#:~:text=anyblades)
+- [11tybundle.dev](https://11tybundle.dev/starters/#:~:text=buildawesome%2Done)
+- [sveltiacms.app](https://sveltiacms.app/en/docs/frameworks/eleventy#:~:text=buildawesome%2Done)
 - [@hamatti](https://hamatti.org/posts/markdown-content-split-to-sections-in-eleventy-and-nunjucks/#:~:text=section%20filter)
 
 <!--{.markerless .columns}-->
