@@ -4,7 +4,7 @@
   "bin": "bin/dev.js",
   "type": "module",
   "scripts": {
-    "ba": "cd ../ && NODE_OPTIONS=--preserve-symlinks buildawesome ${BA_OPTIONS:-$ELTY_OPTIONS}",
+    "ba": "cd ../ && NODE_OPTIONS=--preserve-symlinks ${BA_CMD:-buildawesome} ${BA_OPTIONS}",
     "build": "npm run ba",
     "start": "npm run ba -- --serve --incremental",
     "stage": "rm -r ../_site; npm run build && serve ../_site/",

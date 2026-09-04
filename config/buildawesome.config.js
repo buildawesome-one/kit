@@ -1,7 +1,7 @@
 //<!--section:code-->```js
 
 /* Plugins (core > official > contrib) */
-import { RenderPlugin } from "@awesome.me/buildawesome";
+import { RenderPlugin } from "@11ty/eleventy";
 import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import onePlugin from "@buildawesome.one/plugin";
