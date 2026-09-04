@@ -1,6 +1,6 @@
 {
   "name": "@buildawesome.one/config",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "type": "module",
   "main": "./buildawesome.config.js",
   "dependencies": {
