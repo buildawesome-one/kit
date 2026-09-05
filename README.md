@@ -214,6 +214,7 @@ https://github.com/buildawesome-one/examples
 - [11tybundle.dev](https://11tybundle.dev/starters/#:~:text=buildawesome%2Done)
 - [blades.ninja](https://blades.ninja/#:~:text=build%20awesome%20one)
 - [sveltiacms.app](https://sveltiacms.app/en/docs/frameworks/eleventy#:~:text=buildawesome%2Done)
+- [@adamdjbrett](https://github.com/adamdjbrett/000000076)
 - [@hamatti](https://hamatti.org/posts/markdown-content-split-to-sections-in-eleventy-and-nunjucks/#:~:text=section%20filter)
 
 <!--{.markerless .columns}-->
