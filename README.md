@@ -208,13 +208,14 @@ https://github.com/buildawesome-one/examples
 
 <!--section:featured-->
 
-## <sup style>Featured by</sup><!-- A-Z sites, then @users -->
+## <sup style>Featured by</sup><!-- [1] com-ty sites [2] big projects [3] new projects [4] @users -->
 
 - [11ty.dev](https://www.11ty.dev/authors/buildawesome-one/)
 - [11tybundle.dev](https://11tybundle.dev/starters/#:~:text=buildawesome%2Done)
 - [blades.ninja](https://blades.ninja/#:~:text=build%20awesome%20one)
 - [sveltiacms.app](https://sveltiacms.app/en/docs/frameworks/eleventy#:~:text=buildawesome%2Done)
-- [@adamdjbrett](https://github.com/adamdjbrett/000000076)
+- https://github.com/adamdjbrett/000000076
+- https://github.com/eggplantpasta/greenroom
 - [@hamatti](https://hamatti.org/posts/markdown-content-split-to-sections-in-eleventy-and-nunjucks/#:~:text=section%20filter)
 
 <!--{.markerless .columns}-->
