@@ -110,6 +110,8 @@ function collectValues (node, ary) {
 
 /**
  * Pass in your own "visitor" callback if you plan to need more than simple <ol><li> wrapping.
+ * @example
+ *  {{ collections.all | renderTreeAsOrderedList | safe }}
  */
 export default function renderTreeAsOrderedList (collection, visitor = visitValueForList) {
   const tree = buildTree(collection)
@@ -122,3 +124,5 @@ export default function renderTreeAsOrderedList (collection, visitor = visitValu
 
   return visitor(ary)
 }
+
+
