@@ -110,11 +110,11 @@ export default async function ($config, pluginOptions = {}) {
   $config.addPassthroughCopy(
     {
       // From current working directory
-      _public: "./",
-      media: "./media/",
+      "_public/": "/",
+      "media/": "/media/",
       // Additionally from input dirs like `../` or `./site-1`
-      [`${inputDir}/_public/`]: "./",
-      [`${inputDir}/media/`]: "./media/",
+      [`${inputDir}/_public/`]: "/",
+      [`${inputDir}/media/`]: "/media/",
     },
     { expand: true }, // This follows/resolves symbolic links
   );
