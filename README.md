@@ -2,7 +2,7 @@
 
 <section align="center">
 
-# <span hidden>11ty /</span> Build Awesome <mark>_One_</mark>
+# <span hidden>11ty /</span> Build Awesome <mark>_One¹_</mark>
 
 <big>All-in-_One_ kit for 11ty / Build&nbsp;Awesome.</big>
 
