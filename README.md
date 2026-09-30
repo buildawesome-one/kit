@@ -4,7 +4,7 @@
 
 # <span hidden>11ty /</span> Build Awesome <mark>_One¹_</mark>
 
-<big>All-in-_One_ kit for 11ty / Build&nbsp;Awesome.</big>
+<big>All-in-_One¹_ kit for 11ty / Build&nbsp;Awesome.</big>
 
 <nav>
   <a href="//buildawesome.one/plugin/" role="button"><em>One</em> Plugin ›</a>
