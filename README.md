@@ -19,7 +19,7 @@
 
 ---
 
-## _One_ utility Plugin
+## _One_ unopinionated Plugin
 
 <!--section:plugin-->
 
@@ -75,7 +75,7 @@ $config.addPlugin(onePlugin, {
 
 ---
 
-## All-in-_One_ Config
+## _One_ opinionated Config
 
 <!--section:config-->
 
@@ -143,7 +143,7 @@ Live example: https://github.com/buildawesome-one/examples/tree/main/og-images
 
 ---
 
-## _One_ Starter
+## All-in-_One_ Starter
 
 https://starter.buildawesome.one/
 
