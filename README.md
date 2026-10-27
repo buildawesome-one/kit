@@ -149,7 +149,7 @@ https://starter.buildawesome.one/
 
 ---
 
-## All-in-_One_ Examples
+## Examples
 
 https://github.com/buildawesome-one/examples
 
