@@ -2,16 +2,16 @@
 
 <section align="center">
 
-# <mark class="fa-brands fa-build-awesome fa-width-auto"></mark> Build Awesome <mark>_One¹_</mark>
+# <mark class="fa-brands fa-build-awesome fa-width-auto"></mark> Build Awesome <mark>One¹</mark>
 
-<big>All-in-_One_ kit for 11ty / Build&nbsp;Awesome.</big>
+<big>All-in-One kit for 11ty / Build&nbsp;Awesome.</big>
 
 <nav>
-  <a href="//buildawesome.one/plugin/" role="button"><em>One</em> Plugin ›</a>
+  <a href="//buildawesome.one/plugin/" role="button">One Plugin ›</a>
   <b hidden>|</b>
-  <a href="//buildawesome.one/config/" role="button" class="outline"><em>One</em> Config ›</a>
+  <a href="//buildawesome.one/config/" role="button" class="outline">One Config ›</a>
   <b hidden>|</b>
-  <a href="//starter.buildawesome.one/" role="button" class="outline"><em>One</em> Starter ↗</a>
+  <a href="//starter.buildawesome.one/" role="button" class="outline">One Starter ↗</a>
 </nav>
 </section>
 
@@ -19,7 +19,7 @@
 
 ---
 
-## _One_ unopinionated Plugin
+## One¹ unopinionated Plugin
 
 <!--section:plugin-->
 
@@ -75,7 +75,7 @@ $config.addPlugin(onePlugin, {
 
 ---
 
-## _One_ opinionated Config
+## One¹ opinionated Config
 
 <!--section:config-->
 
@@ -143,7 +143,7 @@ Live example: https://github.com/buildawesome-one/examples/tree/main/og-images
 
 ---
 
-## All-in-_One_ Starter
+## All-in-One¹ Starter
 
 https://starter.buildawesome.one/
 
