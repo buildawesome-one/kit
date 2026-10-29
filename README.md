@@ -91,7 +91,7 @@ For example, using the built-in [Blades templates](https://blades.ninja/tpl/):
 mkdir _includes
 cd _includes/
 ln -s ../node_modules/@anyblades/blades/_includes/blades
-echo "{% extends 'blades/html.njk' %}{% set site = { styles: ['https://cdn.jsdelivr.net/npm/@anyblades/blades@2/css/blades.min.css'] } %}" > default.njk
+echo "{% extends 'blades/html.njk' %}{% set site = { styles: ['https://cdn.jsdelivr.net/npm/@anyblades/blades@3/css/blades.min.css'] } %}" > default.njk
 cd ..
 echo "Hello, world! 🎈" > index.md
 ```

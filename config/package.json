@@ -1,12 +1,12 @@
 {
   "name": "@buildawesome.one/config",
-  "version": "1.5.3",
+  "version": "1.5.4",
   "type": "module",
   "main": "./buildawesome.config.js",
   "dependencies": {
     "@11ty/eleventy-navigation": "^1.0.5",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "@anyblades/blades": "^3.0.0-0",
+    "@anyblades/blades": "^3.1.0-0",
     "@buildawesome.one/cli": "^1.5.1",
     "@buildawesome.one/plugin": "^1.5.0",
     "@uncenter/eleventy-plugin-toc": "^2.1.1",
