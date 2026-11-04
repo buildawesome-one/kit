@@ -85,7 +85,7 @@ npm install @awesome.me/buildawesome @buildawesome.one/config
 
 Everything is installed automatically; the only manual step is to create a default layout.
 
-For example, using the built-in [Blades templates](https://blades.ninja/tpl/):
+For example, using the built-in [Blades templates](https://blades.dev/tpl/):
 
 ```sh
 mkdir _includes
@@ -212,7 +212,7 @@ https://github.com/buildawesome-one/examples
 
 - [11ty.dev](https://www.11ty.dev/authors/buildawesome-one/)
 - [11tybundle.dev](https://11tybundle.dev/starters/#:~:text=buildawesome%2Done)
-- [blades.ninja](https://blades.ninja/#:~:text=build%20awesome%20one)
+- [blades.ninja](https://blades.dev/#:~:text=build%20awesome%20one)
 - [sveltiacms.app](https://sveltiacms.app/en/docs/frameworks/eleventy#:~:text=buildawesome%2Done)
 - https://github.com/adamdjbrett/000000076
 - https://github.com/eggplantpasta/greenroom

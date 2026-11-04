@@ -4,7 +4,7 @@
 
 For each qualifying link the link text is cleaned (protocol prefix and trailing slash stripped; domain portion removed when significant path text remains), then wrapped in the original `<a>` tag preceded by `<i><img src="https://www.google.com/s2/favicons?…"></i>`. Any HTML already present in the link text is wrapped in a `<span>` so the favicon image stays a direct child of `<a>`. Only `.html` output files are processed.
 
-> Compatible with: https://blades.ninja/css/link-icon/ <i class="faded">← this link is a live example!</i>
+> Compatible with: https://blades.dev/css/icon/ <i class="faded">← this link is a live example!</i>
 
 <!--section:code-->```js */
 export function isExternalUrl(url) {
