@@ -2,7 +2,7 @@
 
 <section align="center">
 
-# <mark class="fa-brands fa-build-awesome fa-width-auto"></mark> Build Awesome <mark>One¹</mark>
+<h1>Build Awesome <mark>One¹</mark></h1>
 
 <big>All-in-One kit for 11ty / Build&nbsp;Awesome.</big>
 
