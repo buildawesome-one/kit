@@ -6,6 +6,7 @@
     "start": "clear; buildawesome --serve"
   },
   "dependencies": {
+    "@11ty/lodash-custom": "^5.0.0",
     "@buildawesome.one/plugin": "^1.5.0"
   }
 }
