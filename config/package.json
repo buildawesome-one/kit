@@ -13,7 +13,7 @@
     "markdown-it": "^15.0.3",
     "markdown-it-anchor": "^9.2.0",
     "markdown-it-attrs": "^5.0.1",
-    "yaml": "^2.9.0"
+    "yaml": "^2.9.1"
   },
   "peerDependencies": {
     "@11ty/eleventy": "^3.0.0 || ^4.0.0-0",
