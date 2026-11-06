@@ -7,5 +7,8 @@
     "start": "npm run cli -- start",
     "stage": "npm run cli -- stage",
     "build": "npm run cli -- build"
+  },
+  "dependencies": {
+    "markdown-it-attrs": "^5.0.1"
   }
 }
