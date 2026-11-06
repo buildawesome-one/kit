@@ -24,7 +24,7 @@
     "prepublishOnly": "npm run test"
   },
   "devDependencies": {
-    "@11ty/lodash-custom": "^4.17.21"
+    "@11ty/lodash-custom": "^5.0.0"
   },
   "--- METADATA": "---",
   "author": "Anton Staroverov",
