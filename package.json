@@ -13,7 +13,7 @@
     "@awesome.me/buildawesome": "^4.0.0-0"
   },
   "devDependencies": {
-    "serve": "^14.2.5"
+    "serve": "^14.2.7"
   },
   "--- METADATA": "---",
   "author": "Anton Staroverov",
